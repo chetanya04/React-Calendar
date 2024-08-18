@@ -1,0 +1,105 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Calendar styles */
+.react-calendar {
+  max-width: 100%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #86afdc;
+}
+
+/* Event list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 4px;
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e6e6e6;
+}
+
+
+
+/* Responsive styles */
+@media (min-width: 576px) {
+  .App {
+    padding: 40px;
+  }
+
+  .ReactModal__Content {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    padding: 60px;
+  }
+
+  .ReactModal__Content {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  .App {
+    padding: 80px;
+  }
+
+  .ReactModal__Content {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .App {
+    padding: 100px;
+  }
+
+  .ReactModal__Content {
+    max-width: 800px;
+  }
+}
